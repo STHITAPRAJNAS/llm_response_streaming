@@ -49,3 +49,6 @@ def load_model():
     print("Successfully updated the model using LORA !!!")
 
     return model, tokenizer
+
+if __name__ == '__main__':
+    load_model()
